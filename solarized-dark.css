@@ -1,5 +1,5 @@
 :root {
-    --side-bar-bg-color: #073642;    
+    --side-bar-bg-color: #073642;
     --text-color: #93a1a1;
     --item-hover-bg-color: #073642;
     --window-border: 1px solid #657b83;
@@ -8,34 +8,77 @@
     --item-hover-text-color: #93a1a1;
 }
 
-@include-when-export url(http://fonts.googleapis.com/css?family=Roboto+Mono:400italic,700italic,700,400&subset=latin,latin-ext);
-
 @font-face {
-    font-family: 'Mononoki';
+    font-family: 'DejaVu LGC Sans';
     font-style: normal;
     font-weight: normal;
-    src: local('Mononoki Regular'), url('./solarized/mononoki-regular.woff') format('woff')
+    src: local('DejaVu LGC Sans Book'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSans.ttf') format('ttf')
 }
 
 @font-face {
-    font-family: 'Mononoki';
+    font-family: 'DejaVu LGC Sans';
     font-style: italic;
     font-weight: normal;
-    src: local('Mononoki Italic'), url('./solarized/mononoki-italic.woff') format('woff')
+    src: local('DejaVu LGC Sans Oblique'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSans-Oblique.ttf') format('ttf')
 }
 
 @font-face {
-    font-family: 'Mononoki';
+    font-family: 'DejaVu LGC Sans';
     font-style: normal;
     font-weight: bold;
-    src: local('Mononoki Bold'), url('./solarized/mononoki-bold.woff') format('woff')
+    src: local('DejaVu LGC Sans Bold'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSans-Bold.ttf') format('ttf')
 }
 
 @font-face {
-    font-family: 'Mononoki';
+    font-family: 'DejaVu LGC Sans';
     font-style: italic;
     font-weight: bold;
-    src: local('Mononoki Bold Italic'), url('./solarized/mononoki-bolditalic.woff') format('woff')
+    src: local('DejaVu LGC Sans Bold Oblique'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSans-BoldOblique.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'DejaVu LGC Sans Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DejaVu LGC Sans Mono Book'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSansMono.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'DejaVu LGC Sans Mono';
+    font-style: italic;
+    font-weight: normal;
+    src: local('DejaVu LGC Sans Mono Oblique'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSansMono-Oblique.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'DejaVu LGC Sans Mono';
+    font-style: normal;
+    font-weight: bold;
+    src: local('DejaVu LGC Sans Mono Bold'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSansMono-Bold.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'DejaVu LGC Sans Mono';
+    font-style: italic;
+    font-weight: bold;
+    src: local('DejaVu LGC Sans Mono Bold Oblique'), url('./solarized/dejavu-lgc-fonts-ttf-2.37/ttf/DejaVuLGCSansMono-BoldOblique.ttf') format('ttf')
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "DejaVu LGC Sans", sans-serif;
+}
+
+pre,
+code,
+kbd,
+tt,
+var {
+    font-family: "DejaVu LGC Sans Mono", monospace;
 }
 
 html {
@@ -43,7 +86,6 @@ html {
 }
 
 body {
-    font-family: Consolas, Mononoki, "Roboto Sans", "Liberation Mono", monospace;
     color: #839496;
     line-height: 1.6;
     background-color: #002b36;
@@ -314,7 +356,6 @@ tt {
     color: #2aa198;
     border-radius: 3px;
     padding: 0;
-    font-family: Consolas, Mononoki, "Roboto Mono", "Liberation Mono", Courier, monospace;
     padding: 2px 4px 0px 4px;
     font-size: 0.9em;
 }
@@ -401,7 +442,6 @@ tt {
 
 .md-image > .md-meta {
     border-radius: 3px;
-    font-family: Consolas, Mononoki, "Roboto Mono", "Liberation Mono", Courier, monospace;
     padding: 8px 16px;
     font-size: 0.9em;
     color: inherit;
@@ -440,13 +480,6 @@ tt {
 
 .on-focus-mode blockquote {
     border-left-color: rgba(85, 85, 85, 0.12);
-}
-
-header,
-.context-menu,
-.megamenu-content,
-footer {
-    font-family: Consolas, Mononoki, "Roboto Mono", "Liberation Mono", monospace;
 }
 
 .file-node-content:hover .file-node-icon,

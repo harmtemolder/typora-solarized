@@ -1,13 +1,10 @@
-# Typora-Solarized
+# Typora Solarized & Solarized Dark
 
-This Solarized theme for Typora (markdown editor) uses the same color scheme originally created by Ethan Schoonover.
+The original version of this Solarized theme for Typora was created by [Rafael Belenos](https://github.com/belenos/typora-solarized).
 
-**Instalation**
+This fork changes the following:
+* Set font to DejaVu Sans and Mono. (Downloaded from [https://dejavu-fonts.github.io/Download.html](https://dejavu-fonts.github.io/Download.html).)
 
-To install this theme, open the Preferences panel and then click on the button *Open Theme Folder*. Paste the .css files and the directory named "solarized" inside that folder. Restart typora, then select it from Theme menu.
+## Installation
 
-**Mononoki**
-
-This theme uses Mononoki, an open source monospace font for programming and code review developed for high and low resolution displays. For more details and how to download the complete files, go to the official repository:
-https://github.com/madmalik/mononoki
-
+To install this fork on your Mac, simply clone it and run `make-links.sh`. This will create symlinks in Typora's `themes` folder. Then start Typora and select “Solarized” or “Solarized Dark” from the “Themes” menu.
