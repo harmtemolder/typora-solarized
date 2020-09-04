@@ -2,8 +2,12 @@
 
 The original version of this Solarized theme for Typora was created by [Rafael Belenos](https://github.com/belenos/typora-solarized).
 
+## Changes
+
 This fork changes the following:
-* Set font to DejaVu Sans and Mono. (Downloaded from [https://dejavu-fonts.github.io/Download.html](https://dejavu-fonts.github.io/Download.html).)
+
+[x] Set font to DejaVu Sans and Mono. (Downloaded from [https://dejavu-fonts.github.io/Download.html](https://dejavu-fonts.github.io/Download.html). I also tried a separate `fonts.css` through `@import`, but that did not work.)
+[] Incorporate tweaks of [Sicalxy's fork](https://github.com/Sicalxy/typora-solarized-plus)
 
 ## Installation
 
